@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.102:3306/SpringCloud_Sell?useUnicode=true&characterEncoding=utf-8
+  # rabbitmq:
+  #   host: 192.168.0.102
+  #   port: 15672
+  #   username : guest
+  #   password: guest
+env:
+  dev       
